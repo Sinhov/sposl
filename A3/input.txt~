@@ -1,0 +1,4 @@
+MACRO ABC
+LOAD p
+MEND
+ABC
