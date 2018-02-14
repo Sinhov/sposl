@@ -1,4 +1,1 @@
-a	AREG
-b	-
-u	CREG
-v	DREG
+a	-

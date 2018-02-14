@@ -14,8 +14,9 @@ public class macroPass2 {
 		FileWriter f1 = new FileWriter("Pass2.txt");
 		HashMap<Integer,String> aptab=new HashMap<Integer,String>();
 		HashMap<String,Integer> aptabInverse=new HashMap<String,Integer>();
+		HashMap<String,Integer> mnt=new HashMap<String,Integer>();
 		String s,s1,s2;
-		int i,pp,kp;
+		int i,pp,kp,kpdtp,mdtp,ppa,kpa;
 		while((s=b1.readLine())!=null){
 			s1=b2.readLine();
 			String word[]=s1.split("\t");

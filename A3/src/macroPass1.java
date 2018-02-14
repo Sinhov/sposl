@@ -20,7 +20,7 @@ public class macroPass1 {
 			if(word[0].compareToIgnoreCase("MACRO")==0){
 				flag=1;
 				if(word.length<=2){
-					f2.write(word[1]+"\t"+pp+"\t"+kp+"\t"+mdtp+"\t"+(kpdtp+1)+"\n");
+					f2.write(word[1]+"\t"+pp+"\t"+kp+"\t"+mdtp+"\t"+(kp==0?kpdtp:(kpdtp+1))+"\n");
 					continue;
 				}
 				String params[]=word[2].split(",");
@@ -40,7 +40,7 @@ public class macroPass1 {
 						pp++;
 					}
 				}
-				f2.write(word[1]+"\t"+pp+"\t"+kp+"\t"+mdtp+"\t"+(kpdtp+1)+"\n");
+				f2.write(word[1]+"\t"+pp+"\t"+kp+"\t"+mdtp+"\t"+(kp==0?kpdtp:(kpdtp+1))+"\n");
 				kpdtp+=kp;
 			}
 			else if(word[0].compareToIgnoreCase("MEND")==0){
