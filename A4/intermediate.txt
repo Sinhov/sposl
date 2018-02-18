@@ -1,4 +1,2 @@
-load m
-XYZ 3,4
-XYZ 3
-END
+M1 10,20,&b=CREG
+M2 100,200,&u=&AREG,&v=&BREG

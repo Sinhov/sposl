@@ -1,12 +1,14 @@
-MACRO XYZ &a=
-load &a
-load 5
+MACRO M1 &x,&y,&a=AREG,&b=
+MOVE &a,&x
+ADD &a,='1'
+MOVER &a,&y
+ADD &a,='5'
 MEND
-MACRO XYZ &a,&b
-load &a
-add &b
+MACRO M2 &p,&q,&u=CREG,&v=DREG
+MOVER &u,&p
+MOVER &v,&q
+ADD &u,='15'
+ADD &v,='10'
 MEND
-load m
-XYZ 3,4
-XYZ &a=3
-END
+M1 10,20,&b=CREG
+M2 100,200,&u=&AREG,&v=&BREG
