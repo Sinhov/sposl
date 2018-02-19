@@ -90,9 +90,8 @@ public class Main {
 		}
 		while((s=b1.readLine())!=null){
 			String b1Split[]=s.split("\\s");
-			if(macroNameHash.containsKey(b1Split[0])) {
+			if(macroNameHash.containsKey(b1Split[0]))
 				foo(s);
-			}
 			else
 				f1.write("+ "+s+"\n");
 		}
