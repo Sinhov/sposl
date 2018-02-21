@@ -25,7 +25,7 @@ int main(void){
 	printf("No of characters: %d\n",chars);
 	printf("No of words: %d\n",words);
 	printf("No of lines: %d\n",lines);
-    return 0;
+	return 0;
 }
 
 /*Steps to run
