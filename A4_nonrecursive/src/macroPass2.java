@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Vector;
 
-public class Main {
+public class macroPass2 {
 	public static void main(String[] Args) throws IOException{
 		BufferedReader b1 = new BufferedReader(new FileReader("intermediate.txt"));
 		BufferedReader b2 = new BufferedReader(new FileReader("mnt.txt"));
