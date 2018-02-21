@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Vector;
 
-public class Main {
+public class macroPass2 {
 	static HashMap<String, Integer> mdtpHash = new HashMap<String, Integer>();
 	static HashMap<String, Integer> kpdtpHash = new HashMap<String, Integer>();
 	static HashMap<String, Integer> kpHash = new HashMap<String, Integer>();
