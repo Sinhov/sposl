@@ -1,4 +1,4 @@
-//Sinhov : "The girl told me, take off your jacket. I said, Babes, man's not hot, never hot."
+//Sinhov : In Elon, we Musk.
 import java.io.*;
 import java.util.HashMap;
 import java.util.Vector;
